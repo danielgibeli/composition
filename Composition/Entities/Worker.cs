@@ -22,7 +22,7 @@ namespace Composition.Entities
             Department = department;
         }
 
-        public void addContract(HourContract contract)
+        public void AddContract(HourContract contract)
         {
             Contracts.Add(contract);
         }
